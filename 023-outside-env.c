@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
         return EXIT_FAILURE;
     }
     argv[0] = duplicated;
-    
+
     if (argv[1] == NULL) {
         printf("argument is not provided\n");
         return EXIT_FAILURE;

@@ -17,10 +17,10 @@ int main(void) {
     fgets(buffer, sizeof(buffer), stdin);
     buffer[strcspn(buffer, "\n")] = '\0';
     strcpy(em1.name, buffer);
-    
+
     printf("Enter age: ");
     scanf("%d", &em1.age);
-    
+
     printf("Enter salary: ");
     scanf("%f", &em1.salary);
 
