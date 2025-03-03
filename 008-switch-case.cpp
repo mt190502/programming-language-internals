@@ -17,4 +17,6 @@ int main(void) {
             std::cout << "Unknown" << std::endl;
             break;
     }
+
+    return 0;
 }

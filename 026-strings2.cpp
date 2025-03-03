@@ -1,4 +1,3 @@
-#include <cstdio>
 #include <threads.h>
 #include <iostream>
 

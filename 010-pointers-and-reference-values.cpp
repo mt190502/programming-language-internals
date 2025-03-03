@@ -27,4 +27,6 @@ int main(void) {
 
     std::cout << "x: " << x << std::endl;
     std::cout << "b: " << b << std::endl;
+
+    return 0;
 }

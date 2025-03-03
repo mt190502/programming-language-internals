@@ -9,7 +9,7 @@ int add(int argc, int* argv) {
 }
 
 int main(void) {
-    int numbers[] = {1, 2, 3, 4, 5};
+    int numbers[] = {10, 20, 30, 40, 50, 100, 200, 1000};
     int z = add(sizeof(numbers) / sizeof(numbers[0]), numbers);
     std::cout << "Sum: " << z << std::endl;
     return 0;

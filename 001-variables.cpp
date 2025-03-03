@@ -6,7 +6,7 @@ int main(void) {
     // char: 1 byte (-128 to 127)
     char c = 'A';
 
-    // bool: 1 byte (true or false) [0 or 1]
+    // bool: 1 byte (true or false) [0 or 1] 
     bool b = true;
 
     // int: 4 bytes (-2,147,483,648 to 2,147,483,647)
@@ -29,7 +29,7 @@ int main(void) {
     std::printf("x (%2ld bytes): %d\n", sizeof(x), x);
     std::printf("f (%2ld bytes): %f\n", sizeof(f), f);
     std::printf("d (%2ld bytes): %f\n", sizeof(d), d);
-    std::printf("s (%2ld bytes): %s\n", std::strlen(s), s);
+    std::printf("s (%2ld bytes): %s\n", std::strlen(s), s); // strlen() from <cstring>
     std::cout << "str: " << str << std::endl;
 
     std::cout << "================================================" << std::endl;

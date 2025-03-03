@@ -12,6 +12,7 @@ int main(void) {
     *ptr = 5;
     std::cout << "ptr: " << (void*)ptr << " -> " << *ptr << std::endl;
     std::free(ptr);
+    std::cout << "after: " << (void*)ptr << " -> " << *ptr << std::endl;
 
     std::cout << "================================================" << std::endl;
 
