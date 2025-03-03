@@ -35,9 +35,9 @@ int main(void) {
     std::cout << "================================================" << std::endl;
 
     int s3 = 1234;
-    void *ptr = &s3;
+    void* ptr = &s3;
     int* ptr2 = (int*)ptr;
-    std::cout << "ptr2: " << (void*)ptr2 << " -> " << *ptr2 << std::endl;    
+    std::cout << "ptr2: " << (void*)ptr2 << " -> " << *ptr2 << std::endl;
 
     std::cout << "================================================" << std::endl;
 

@@ -8,7 +8,7 @@ int main(void) {
     } else {
         std::cout << "a is not less than b and b is not less than c" << std::endl;
     }
-    
+
     std::cout << "================================================" << std::endl;
 
     a = 10;
@@ -18,7 +18,7 @@ int main(void) {
         std::cout << "a: " << a << std::endl;
         a++;
     }
-    
+
     std::cout << "================================================" << std::endl;
 
     a = 10;
@@ -28,13 +28,13 @@ int main(void) {
         std::cout << "a: " << a << std::endl;
         a--;
     } while ((0 < a) && (a < b));
-    
+
     std::cout << "================================================" << std::endl;
 
     for (int i = 0; i < 10; i++) {
         std::cout << "i: " << i << std::endl;
     }
-    
+
     std::cout << "================================================" << std::endl;
 
     while (1) {

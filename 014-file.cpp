@@ -9,7 +9,7 @@ int main(void) {
         std::printf("File open failed\n");
         return 1;
     }
- 
+
     std::cout << "================================================" << std::endl;
 
     int first_char = std::fgetc(file);
@@ -67,7 +67,7 @@ int main(void) {
         printf("Name: %s\nAge: %d\nSalary: %.2f\nJob: %s\n=====\n", name, age, salary, job);
     }
     std::fclose(file2);
-    
+
     std::cout << "================================================" << std::endl;
 
     // read file with c++
@@ -85,7 +85,7 @@ int main(void) {
     file2_cpp.close();
 
     std::cout << "================================================" << std::endl;
-    
+
     // write file with c
     FILE* file3 = std::fopen("temp.txt", "w+");
     std::fputc('A', file3);
@@ -94,7 +94,7 @@ int main(void) {
     std::fprintf(file3, "\n%d\n", 10);
     std::fputs("Hello World!", file3);
     std::fclose(file3);
-   
+
     // write file with c++
     std::ofstream file3_cpp("temp.txt");
     if (!file3_cpp.is_open()) {

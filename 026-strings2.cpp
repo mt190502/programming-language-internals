@@ -17,10 +17,10 @@ int main(void) {
 
     std::cout << "================================================" << std::endl;
 
-    std::cout << "Test? " <<  ('A' == 65) << std::endl;
-    std::cout << "Test\?\?! " <<  ('A' == 65) << std::endl;
-    std::cout << "Test\? " <<  ('A' == 65) << std::endl;
-    std::cout << "Test\?\? " <<  ('A' == 65) << std::endl;
+    std::cout << "Test? " << ('A' == 65) << std::endl;
+    std::cout << "Test\?\?! " << ('A' == 65) << std::endl;
+    std::cout << "Test\? " << ('A' == 65) << std::endl;
+    std::cout << "Test\?\? " << ('A' == 65) << std::endl;
 
     std::cout << "================================================" << std::endl;
 

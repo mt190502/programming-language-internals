@@ -9,9 +9,7 @@ int strlen_cst_c(const char* s) {
     return i;
 }
 
-int strlen_cst_cpp(const std::string& s) {
-    return s.size();
-}
+int strlen_cst_cpp(const std::string& s) { return s.size(); }
 
 int main(void) {
     // cpp method

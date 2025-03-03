@@ -8,7 +8,7 @@ struct employee {
     float salary;
 };
 
-void display_employee(struct employee* em) { 
+void display_employee(struct employee* em) {
     std::cout << "=== Employee ===" << std::endl;
     std::cout << "Name: " << em->name << std::endl;
     std::cout << "Age: " << em->age << std::endl;
@@ -23,13 +23,13 @@ int main(void) {
     std::cin >> buffer;
     buffer[strcspn(buffer, "\n")] = '\0';
     std::strcpy(em1.name, buffer);
-    
+
     std::cout << "Enter age: " << std::endl;
     std::cin >> em1.age;
 
     std::cout << "Enter salary: " << std::endl;
     std::cin >> em1.salary;
-    
+
     display_employee(&em1);
 
     std::cout << "================================================" << std::endl;

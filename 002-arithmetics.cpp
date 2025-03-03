@@ -17,13 +17,13 @@ int main(void) {
     std::cout << "a / b = " << c << std::endl;
 
     // pre-increment
-    std::cout << "a (++a) = " << ++a << std::endl;   // a = 20 -> (21)
-    std::cout << "a = " << 5 + ++a << std::endl;     // a = 21 -> (22) + 5 = 27
+    std::cout << "a (++a) = " << ++a << std::endl;  // a = 20 -> (21)
+    std::cout << "a = " << 5 + ++a << std::endl;    // a = 21 -> (22) + 5 = 27
 
     // post-increment
-    std::cout << "b (b++) = " << b++ << std::endl;   // b = (10) -> 11
-    std::cout << "b = " <<  5 + b++ << std::endl;    // b = (11) + 5 = 16
-    std::cout << "b = " << b << std::endl;           // b = 12
+    std::cout << "b (b++) = " << b++ << std::endl;  // b = (10) -> 11
+    std::cout << "b = " << 5 + b++ << std::endl;    // b = (11) + 5 = 16
+    std::cout << "b = " << b << std::endl;          // b = 12
 
     return 0;
 }

@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
         return EXIT_FAILURE;
     }
     argv[0] = duplicated;
-    
+
     if (!argv[1]) {
         std::cout << "argument is not provided" << std::endl;
         return EXIT_FAILURE;
@@ -33,7 +33,6 @@ int main(int argc, char* argv[]) {
 
     for (int i = 0; environ[i] != NULL; i++) {
         std::cout << "environ[" << i << "]: " << environ[i] << std::endl;
-
     }
 
     return 0;

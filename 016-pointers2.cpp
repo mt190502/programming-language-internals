@@ -44,6 +44,6 @@ int main(void) {
     std::string str_cpp = "Hello";
     std::string buffer_cpp = str_cpp;
     std::cout << "str (" << buffer_cpp.length() << "): " << buffer_cpp << std::endl;
-    
+
     return 0;
 }

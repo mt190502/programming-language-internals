@@ -11,7 +11,7 @@ int main(void) {
     int result = add(sizeof(arr) / sizeof(arr[0]), arr);
 
     std::cout << "result: " << result << std::endl;
-    
+
     std::cout << "================================================" << std::endl;
 
     int val1 = 10, val2 = 5;

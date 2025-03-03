@@ -21,13 +21,13 @@ int main(void) {
 
     std::cout << "================================================" << std::endl;
 
-    int arr[2][3][4] = { {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}, {{13, 14, 15, 16}, {17, 18, 19, 20}, {21, 22, 23, 24}} };
-    
+    int arr[2][3][4] = {{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}, {{13, 14, 15, 16}, {17, 18, 19, 20}, {21, 22, 23, 24}}};
+
     size_t x = sizeof(arr) / sizeof(arr[0]);
     size_t y = sizeof(arr[0]) / sizeof(arr[0][0]);
     size_t z = sizeof(arr[0][0]) / sizeof(arr[0][0][0]);
 
-    std::cout << sizeof(arr) << " bytes: (" << x << " x " << y << " x " << z << ") x int" << std::endl; 
+    std::cout << sizeof(arr) << " bytes: (" << x << " x " << y << " x " << z << ") x int" << std::endl;
 
     for (size_t i = 0; i < x; i++) {
         for (size_t j = 0; j < y; j++) {
